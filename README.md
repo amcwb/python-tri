@@ -58,3 +58,19 @@ ZeroDivisionError: division by zero
 >>> await atri(func)
 (None, "hello")
 ```
+
+
+## Real life example
+Some examples include...
+
+### Safer JSON loading
+```python
+from tri import bi
+
+safer_loads = bi(json.loads)
+error, result = safer_loads(data)
+
+if error:
+   # Error handling JSON
+   print("Invalid JSON")
+```

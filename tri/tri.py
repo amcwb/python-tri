@@ -1,3 +1,8 @@
+# Copyright (c) 2021 Avery
+# 
+# This software is released under the MIT License.
+# https://opensource.org/licenses/MIT
+
 import inspect
 from typing import Callable, Coroutine
 
