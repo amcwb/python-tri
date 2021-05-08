@@ -22,7 +22,7 @@ from setuptools import setup
 with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-setup(name='tri',
+setup(name='tribi',
       version='1.0.0',
       description='Prettier error handling for Python',
       author='starsflower',
