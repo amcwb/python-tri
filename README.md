@@ -1,6 +1,9 @@
 # Tri/bi
 This package provides wrappers around functions that nicely handle errors. Reducing code clutter and allowing better responses to uses. This package is inspired by [tri-fp](https://www.npmjs.com/package/tri-fp)
 
+[![](https://img.shields.io/pypi/v/tribi.svg)](https://pypi.org/project/tribi/)
+[![](https://img.shields.io/pypi/implementation/tribi.svg)](https://pypi.org/project/tribi/)
+
 ## Tri
 Tri still lets native exceptions (usually more severe errors) throw, but catches any other errors
 ```python
