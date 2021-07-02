@@ -28,7 +28,7 @@ def bi(func: Callable):
     return _wrapper
 
 
-async def atri(func: Coroutine):
+async def abi(func: Coroutine):
     """
     Similar to :func:`tri`, but instead takes coroutines or awaitable
     functions and awaits them, providing the same return. Unlike
