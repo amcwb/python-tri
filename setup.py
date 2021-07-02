@@ -10,7 +10,7 @@ with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding
     long_description = f.read()
 
 setup(name='tribi',
-      version='1.0.3',
+      version='1.0.4',
       description='Prettier error handling for Python',
       author='starsflower',
       url='https://github.com/starsflower/python-tri',
