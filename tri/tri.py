@@ -95,7 +95,9 @@ async def atri(func: Coroutine):
     BaseException
         Any built in exception
     """
-    if not inspect.iscoroutinefunction(func):
+    if inspect.iscoroutinefunction(func):
+        func = func()
+    else:
         # It may not be an async function but it is awaitable
         if not inspect.isawaitable(func):
             raise TypeError("Function must be coroutine")
